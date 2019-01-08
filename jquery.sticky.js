@@ -189,7 +189,7 @@
           methods.setupChangeListeners(this);
         });
       },
-
+      resizer: resizer,
       setWrapperHeight: function(stickyElement) {
         var element = $(stickyElement);
         var stickyWrapper = element.parent();
